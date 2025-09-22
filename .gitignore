@@ -1,0 +1,25 @@
+# ===== Python (backend) =====
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# Django static/media files
+backend/staticfiles/
+media/
+
+# ===== Node (frontend) =====
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
