@@ -23,7 +23,10 @@ function App() {
     console.log("Submitting trip:", tripForm);
 
     axios
-      .post("http://127.0.0.1:8000/trip/", tripForm)
+      // .post("http://127.0.0.1:8000/trip/", tripForm)
+      // For deployment
+      .post("https://truck-driver-logbook.onrender.com/trip/", tripForm) 
+
       .then((res) => {
         console.log("Trip planned:", res.data);
         setRouteInfo(res.data.route_info);
