@@ -1,0 +1,162 @@
+/* ===== General Layout ===== */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fdfdfd;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-top: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* ===== Info Section ===== */
+.info-section {
+  background: #f4f7fb;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.info-section p {
+  margin: 4px 0;
+}
+
+/* ===== Trip Planner ===== */
+.trip-planner {
+  margin: 20px 0;
+  padding: 15px;
+  background: #eef5ff;
+  border: 1px solid #c5daff;
+  border-radius: 6px;
+}
+
+.trip-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.trip-form input {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+/* ===== Route Info ===== */
+.route-info {
+  margin: 20px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.route-info p {
+  margin: 5px 0;
+}
+
+/* ===== Log Form ===== */
+.log-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.log-form input,
+.log-form select {
+  padding: 6px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.log-form button {
+  margin-left: auto;
+}
+
+/* ===== Entries Table ===== */
+.entries-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.entries-table th,
+.entries-table td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.entries-table th {
+  background: #f1f1f1;
+}
+
+/* ===== Graph ===== */
+.log-graph {
+  background: #fff;
+  border: none;
+  overflow: visible;
+}
+
+.status-label {
+  font-weight: bold;
+  fill: #333;
+}
+
+
+.duty-line {
+  stroke: #ddd;
+  stroke-width: 1;
+}
+
+.hour-line {
+  stroke: #f0f0f0;
+  stroke-width: 1;
+}
+
+.hour-label {
+  font-size: 10px;
+  fill: #444;
+  text-anchor: middle;
+}
+
+polyline {
+  fill: none;
+  stroke: #0077cc;
+  stroke-width: 2;
+}
+
+/* ===== Remarks ===== */
+.remarks {
+  margin-top: 20px;
+  padding: 12px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.remarks ul {
+  padding-left: 20px;
+}
+
+.remarks li {
+  margin: 4px 0;
+}
