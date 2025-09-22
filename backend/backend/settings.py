@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-qx55^*&$*dw$a2!=7@q9^+lrg=e#0)x@!v=n-z+kmd(wmh&c0c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["driver-logbook-backend.onrender.com"]
-
+ALLOWED_HOSTS = [
+    "truck-driver-logbook.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
