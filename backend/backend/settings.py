@@ -59,6 +59,7 @@ MIDDLEWARE = [
 # Allow React frontend
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://truck-driver-logbook-aucgb948g-nzayas-projects.vercel.app",
     "https://truck-driver-logbook.vercel.app"
 ]
 
